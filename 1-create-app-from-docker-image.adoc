@@ -6,11 +6,11 @@ how to create an application from an existing docker image.
 
 *Step 1: Add a new project from command line*
 
-IMPORTANT: Please replace *userxx* with the username assigned to you in
+IMPORTANT: Please replace *user-xx* with the username assigned to you in
 the commands below.
 
 ----
-$ oc new-project mycliproject-userxx --description="My CLI Project" --display-name="CLI Project"
+$ oc new-project mycliproject-user-xx --description="My CLI Project" --display-name="CLI Project"
 ----
 
 Upon project creation, OpenShift will automatically switch to the newly
@@ -31,7 +31,7 @@ command. It says that the project is currently not running anything.
 ----
 $ oc status
 
-In project CLI Project (mycliproject-userxx)
+In project CLI Project (mycliproject-user-xx)
 
 You have no services, deployment configs, or build configs.
 Run 'oc new-app' to create an application.
